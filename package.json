@@ -1,0 +1,9 @@
+{
+  "name": "packageDemo",
+  "version": "1.0.0",
+  "description": "POC of a plugin",
+  "main": "index.js",
+  "repository": "https://github.com/rancollier/packageDemo",
+  "author": "rcollier@adobe.com",
+  "license": "MIT"
+}
