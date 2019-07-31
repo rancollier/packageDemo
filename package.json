@@ -1,5 +1,5 @@
 {
-  "name": "packageDemo",
+  "name": "rcpackagedemo",
   "version": "1.0.0",
   "description": "POC of a plugin",
   "main": "index.js",
