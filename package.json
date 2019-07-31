@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/rancollier/packageDemo",
   "author": "rcollier@adobe.com",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "graphql-tag": "^2.10.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8"
+  }
 }
