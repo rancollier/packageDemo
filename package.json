@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "POC of a plugin",
   "main": "index.js",
-  "repository": "https://github.com/rancollier/packageDemo",
+  "homepage": "https://github.com/rancollier/packageDemo",
+  "bugs": "https://github.com/rancollier/packageDemo/issues",
+  "repository": {
+    "url":  "https://github.com/rancollier/packageDemo",
+    "type": "git"
+  },
   "author": "rcollier@adobe.com",
   "license": "MIT",
   "peerDependencies": {
