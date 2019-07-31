@@ -11,6 +11,11 @@
   },
   "author": "rcollier@adobe.com",
   "license": "MIT",
+  "devDependencies": {
+    "graphql-tag": "~2.10.1",
+    "react": "~16.8.3",
+    "react-apollo": "~2.5.5"
+  },
   "peerDependencies": {
     "graphql-tag": "~2.10.1",
     "react": "~16.8.3",
