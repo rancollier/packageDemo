@@ -1,6 +1,6 @@
 {
   "name": "rcpackagedemo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "POC of a plugin",
   "main": "./dist/bundle.js",
   "homepage": "https://github.com/rancollier/packageDemo",
