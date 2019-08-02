@@ -69,3 +69,4 @@ export const QueryDemo = () => {
         </Query>
     );
 };
+export default QueryDemo;
