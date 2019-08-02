@@ -37,7 +37,8 @@ const search = 'skirt'
 
 export const QueryDemo = () => {
     return (
-        <Query query={GET_PRODUCT_BY_ID} variables={{ id, search }}>
+        <Query 
+        query={GET_PRODUCT_BY_ID} variables={{ id, search }}>
             {({ loading, error, data }) => {
                 if (error) {
                     return (
