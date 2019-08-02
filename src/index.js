@@ -1,6 +1,23 @@
-import React from 'react';
+import React from "react";
 import { Query } from "react-apollo";
 import gql from "graphql-tag";
+
+const ReactColorSquare = props => {
+  const { width, height, color, text } = props;
+  return (
+    <div
+      style={{
+        width: width || 100,
+        height: height || 100,
+        backgroundColor: color || "blue"
+      }}
+    >
+      {text}
+    </div>
+  );
+};
+
+export default ReactColorSquare;
 
 const GET_PRODUCT_BY_ID = gql`
 query categoryList($id: Int! $search: String!) {
@@ -69,4 +86,3 @@ export const QueryDemo = () => {
         </Query>
     );
 };
-export default QueryDemo;
